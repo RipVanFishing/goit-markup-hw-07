@@ -400,7 +400,7 @@ ul {
   color: var(--accent-color);
 }
 
-.page-footer__social-list {
+.page-footer__social-wrap {
   margin-left: 70px;
 }
 
@@ -683,7 +683,6 @@ ul {
   top: 50%;
   left: -22px;
   transform: translateY(-50%);
-  transition: ;
 }
 .modal-form__title {
   font-weight: 700;
