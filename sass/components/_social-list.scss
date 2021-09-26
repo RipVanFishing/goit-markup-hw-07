@@ -11,7 +11,6 @@
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    fill: $mainColor;
     background-color: rgba(255, 255, 255, 0.1);
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -24,7 +23,17 @@
   &__item-icon:focus {
     background-color: $accentColor;
   }
+
   &__icon {
+    fill: $mainColor;
+  }
+  &__icon--grey {
+    padding: 10px;
+    fill: $iconColor;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  &__icon--grey:hover,
+  &__icon--grey:focus {
     fill: $mainColor;
   }
 }
